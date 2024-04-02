@@ -1,4 +1,4 @@
-minecraft
-valorant
-league of legends
-csgo
+* minecraft
+* valorant
+* league of legends
+* csgo
