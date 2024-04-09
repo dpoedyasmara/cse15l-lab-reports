@@ -1,8 +1,8 @@
 cd
 ---
-![Image](cd_no_argument.jpg)
-![Image](cd_directory_argument.jpg)
-![Image](cd_file_argument.jpg)
+![Image](cd1_no_argument.jpg)
+![Image](cd1_directory_argument.jpg)
+![Image](cd1_file_argument.jpg)
 
 ls
 ---
