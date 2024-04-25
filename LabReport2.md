@@ -1,6 +1,6 @@
 Part 1: ChatServer
 ---
-![Image](ChatServer_Code.png) <br>
+![Image](ChatServer_Code(smaller).png) <br>
 ![Image](ChatServer-1.png) <br>
 This command for the URL calls the `public String handleRequest` method within the `handler` class. This method separates the different parts of the URL path into `String[] parametersArray` to assign values to `String user` and `String message` based on the index of the string. The `String chatLog` field is then updated with the `message` and `user` formatted as "user: message \n". <br>
 ![Image](ChatServer-2.png) <br>
