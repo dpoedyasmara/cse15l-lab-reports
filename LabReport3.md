@@ -3,17 +3,17 @@ Part 1 - Bugs : Lab 4 method `reversed` bug
 ```
 // input that induces a failure
 @Test 
-public void testReversedFail[] {
+public void testReversedFail() {
   int[] input = {5,6,7};
-  assertArrayEquals{new int[]{7,6,5}, ArrayExamples.reversed(input)};
+  assertArrayEquals(new int[]{7,6,5}, ArrayExamples.reversed(input));
 }
 ```
 ```
 // input that doesn't induce a failure
 @Test
-public void testReversedNoFail[] {
+public void testReversedNoFail() {
   int[] input = {0,0,0};
-  assertArrayEquals{new int[]{0,0,0}, ArrayExamples.reversed(input)};
+  assertArrayEquals(new int[]{0,0,0}, ArrayExamples.reversed(input));
 }
 ```
 ```
