@@ -16,6 +16,8 @@ public void testReversedNoFail() {
   assertArrayEquals(new int[]{0,0,0}, ArrayExamples.reversed(input));
 }
 ```
+Symptom Output
+![Image](ChatServer_Code(smaller).png) <br>
 ```
 // bugged method before
 static int[] reversed(int[] arr) {
