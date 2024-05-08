@@ -44,6 +44,24 @@ This fix addresses the issue in the code because the original method assigns val
 
 Part 2 - Researching Commands : grep command
 ---
-grep -c
-grep -m
-grep -r
+grep -c <br>
+```
+// -c example 1
+```
+```
+// -c example 2
+```
+grep -m <br>
+```
+// -m example 1
+```
+```
+// -m example 2
+```
+grep -r <br>
+```
+// -r example 1
+```
+```
+// -r example 2
+```
