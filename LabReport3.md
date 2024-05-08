@@ -44,21 +44,22 @@ This fix addresses the issue in the code because the original method assigns val
 
 Part 2 - Researching Commands : grep command
 ---
-grep -c <br>
+grep -c (prompted ChatGPT with "grep command options" - It outputted 12 different commands you can use grep with) <br>
 ```
 // -c example 1
 ```
 ```
 // -c example 2
 ```
-grep -m <br>
+
+grep -m (prompted ChatGPT with "grep command options" - It outputted 12 different commands you can use grep with) <br>
 ```
 // -m example 1
 ```
 ```
 // -m example 2
 ```
-grep -r <br>
+grep -r (prompted ChatGPT with "grep command options" - It outputted 12 different commands you can use grep with) <br>
 ```
 // -r example 1
 ```
