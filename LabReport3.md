@@ -17,7 +17,7 @@ public void testReversedNoFail() {
 }
 ```
 Symptom Output
-![Image](ChatServer_Code(smaller).png) <br>
+![Image](LabReport3-symptom.jpg) <br>
 ```
 // bugged method before
 static int[] reversed(int[] arr) {
@@ -33,12 +33,14 @@ static int[] reversed(int[] arr) {
 static int[] reversed(int[] arr) {
   int[] newArray = new int[arr.length];
   for(int i = 0; i < arr.length; i += 1) {
-  newArray[i] = arr[arr.length - i - 1];
+    newArray[i] = arr[arr.length - i - 1];
   }
   return newArray;
 }
-
 ```
+<br>
+
+This fix addresses the issue in the code because the original method assigns values from the newly created `newArray` into the original `arr`, then it returns the original variable `arr`. This causes the method to always return an array full of zeros due to the default int value in integer arrays being zero. The method was changed by instead assigning `arr` values to `newArray` then returning `newArray` to reverse the array.
 
 Part 2 - Researching Commands : grep command
 ---
