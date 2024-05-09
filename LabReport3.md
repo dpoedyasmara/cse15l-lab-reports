@@ -44,25 +44,43 @@ This fix addresses the issue in the code because the original method assigns val
 
 Part 2 - Researching Commands : grep command
 ---
-grep -c (prompted ChatGPT with "grep command options" - It outputted 12 different commands you can use grep with) <br>
-```
-// -c example 1
-```
-```
-// -c example 2
-```
-
 grep -m (prompted ChatGPT with "grep command options" - It outputted 12 different commands you can use grep with) <br>
 ```
 // -m example 1
+dpoedyasmara@Daniels-MacBook-Pro docsearch % grep -m 3 health technical/biomed/1468-6708-3-1.txt
+        Many healthy older adults report gradual weight gain
+        most robust health as we age. It has been suggested that
+        quality of life or years of healthy life (YHL) in the
 ```
 ```
 // -m example 2
+dpoedyasmara@Daniels-MacBook-Pro docsearch % grep -m 3 blood technical/biomed/1468-6708-3-7.txt
+          as a first-line blood pressure agent for patients with
+          Willebrand factor commensurate with blood pressure, but
+          blood-pressure reduction and effects on cholesterol.
+```
+
+grep -c (prompted ChatGPT with "grep command options" - It outputted 12 different commands you can use grep with) <br>
+```
+// -c example 1
+dpoedyasmara@Daniels-MacBook-Pro docsearch % grep -c cell technical/biomed/1468-6708-3-1.txt
+4
+```
+```
+// -c example 2
+dpoedyasmara@Daniels-MacBook-Pro docsearch % grep -c blood technical/biomed/1468-6708-3-7.txt
+12
 ```
 grep -r (prompted ChatGPT with "grep command options" - It outputted 12 different commands you can use grep with) <br>
 ```
 // -r example 1
+dpoedyasmara@Daniels-MacBook-Pro docsearch % grep -r preface technical/911report
+technical/911report/chapter-13.3.txt:                For its preface, the Plan quoted a memo Tenet had sent to the CIA's senior
+technical/911report/chapter-3.txt:                prefaced the directions with a message:"From the American President down to the
 ```
 ```
 // -r example 2
+dpoedyasmara@Daniels-MacBook-Pro docsearch % grep -r astute technical/plos     
+technical/plos/journal.pbio.0020071.txt:        convincing readers of the reality and cogency of evolution and evolution theory by astutely
+technical/plos/pmed.0010034.txt:        yielded insights that revolutionized the field of endocrinology. More recently, the astute
 ```
