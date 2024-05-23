@@ -45,7 +45,7 @@ This fix addresses the issue in the code because the original method assigns val
 Part 2 - Researching Commands : grep command
 ---
 grep -m (used `man grep` in terminal then searched through the options) <be>
-This command displays the first specified number amount of lines in the file with your specified keyword.
+- This command displays the first specified number amount of lines in the file with your specified keyword.
 ```
 // -m example 1
 dpoedyasmara@Daniels-MacBook-Pro docsearch % grep -m 3 health technical/biomed/1468-6708-3-1.txt
@@ -53,41 +53,41 @@ dpoedyasmara@Daniels-MacBook-Pro docsearch % grep -m 3 health technical/biomed/1
         most robust health as we age. It has been suggested that
         quality of life or years of healthy life (YHL) in the
 ```
-This example searches through the `technical/biomed/1468-6708-3-1.txt` file for the first 3 instances of "health" and prints out these lines.
+- This example searches through the `technical/biomed/1468-6708-3-1.txt` file for the first 3 instances of "health" and prints out these lines.
 ```
 // -m example 2
 dpoedyasmara@Daniels-MacBook-Pro docsearch % grep -m 3 cholesterol technical/biomed/1468-6708-3-7.txt
         surrogate endpoints such as cholesterol levels and
           blood-pressure reduction and effects on cholesterol.
 ```
-This command searches for the first 3 instances of "cholesterol" in `technical/biomed/1468-6708-3-7.txt` however it only displays 2 lines because there are less than 3 instances.
+- This command searches for the first 3 instances of "cholesterol" in `technical/biomed/1468-6708-3-7.txt` however it only displays 2 lines because there are less than 3 instances.
 <br>
 
 grep -c (used `man grep` in terminal then searched through the options) <br>
-This command returns the number of instances of the specified keyword in the file.
+- This command returns the number of instances of the specified keyword in the file.
 ```
 // -c example 1
 dpoedyasmara@Daniels-MacBook-Pro docsearch % grep -c adult technical/biomed/1468-6708-3-7.txt 
 0
 ```
-This example displays what is returned when there are no instances of the word. 
+- This example displays what is returned when there are no instances of the word. 
 ```
 // -c example 2
 dpoedyasmara@Daniels-MacBook-Pro docsearch % grep -c blood technical/biomed/1468-6708-3-7.txt
 12
 ```
-This example returned 12, telling us that there are 12 instances of "blood" in the file `technical/biomed/1468-6708-3-7.txt`
+- This example returned 12, telling us that there are 12 instances of "blood" in the file `technical/biomed/1468-6708-3-7.txt`
 <br>
 
 grep -r (used `man grep` in terminal then searched through the options) <br>
-This command searches each file in the directory recursively.
+- This command searches each file in the directory recursively.
 ```
 // -r example 1
 dpoedyasmara@Daniels-MacBook-Pro docsearch % grep -r preface technical/911report
 technical/911report/chapter-13.3.txt:                For its preface, the Plan quoted a memo Tenet had sent to the CIA's senior
 technical/911report/chapter-3.txt:                prefaced the directions with a message:"From the American President down to the
 ```
-This example shows how the word "preface" appeared in the files `technical/911report/chapter-13.3.txt` and `technical/911report/chapter-3.txt`, then prints the line it appears in.
+- This example shows how the word "preface" appeared in the files `technical/911report/chapter-13.3.txt` and `technical/911report/chapter-3.txt`, then prints the line it appears in.
 ```
 // -r example 2
 dpoedyasmara@Daniels-MacBook-Pro docsearch % grep -r mature technical/plos    
@@ -137,4 +137,4 @@ technical/plos/pmed.0020123.txt:            family history of premature CHD—we
 technical/plos/journal.pbio.0020013.txt:        in premature substrate release (Eytan et al. 1993; Lam et al. 1997; Thrower et al. 2000;
 technical/plos/pmed.0020068.txt:        mature adult myofibers: by hormonal influences (e.g., thyroid hormone), but most
 ```
-This example shows us that this command will display every line containing that word even if there are multiple instances in a single file. It is seen that there were 5 instances of "mature" in the file `technical/plos/pmed.0020103.txt` so there were 5 lines printed for this file.
+- This example shows us that this command will display every line containing that word even if there are multiple instances in a single file. It is seen that there were 5 instances of "mature" in the file `technical/plos/pmed.0020103.txt` so there were 5 lines printed for this file.
